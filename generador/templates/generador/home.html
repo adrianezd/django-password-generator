@@ -1,0 +1,36 @@
+<h1>Password Generator</h1>
+<!-- Password Lenght -->
+
+<form action="{% url 'password' %}">
+
+    <label for="name">Nombre</label>
+    <input type="name" name="name" id="name">
+    <br>
+    <label for="correo">Correo</label>
+    <input type="email" name="correo" id="correo">
+    <br>
+    <label for="length">Select the length of your password:</label>
+    <select name="length" id="length">
+        <option value="6">6 characters</option>
+        <option value="7">7 characters</option>
+        <option value="8">8 characters</option>
+        <option value="9">9 characters</option>
+        <option value="10">10 characters</option>
+        <option value="11">11 characters</option>
+        <option value="12">12 characters</option>
+        <option value="13">13 characters</option>
+        <option value="14">14 characters</option>
+    </select>
+
+
+    <label for="uppercase">Include uppercase letters?</label>
+    <input type="checkbox" name="uppercase" id="uppercase">
+
+    <label for="characters">Include special characters</label>
+    <input type="checkbox" name="characters" id="characters">
+
+    <label for="numbers">Include numbers?</label>
+    <input type="checkbox" name="numbers" id="numbers">
+
+    <button>Generate Password</button>
+</form>
