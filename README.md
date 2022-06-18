@@ -1,8 +1,5 @@
 # django-password-generator
 Documentación Básica Django<br><br>
-<img src="./DjangoImages//media/image13.png" width="100" height="100"></img> 
-<img src="./DjangoImages//media/image5.png" width="100" height="100"></img> 
-
 PREPARACIÓN PROYECTO PASSGENERATOR
 
 INSTALACIÓN DE LIBRERÍAS
@@ -12,7 +9,7 @@ INSTALACIÓN DE LIBRERÍAS
 
 -   **pip install django -\> instalación de django**
 
-============================================================================================
+===========================================================================
 
 COMANDOS ENTORNO
 ================
@@ -38,9 +35,8 @@ COMANDOS DJANGO
 
 -   **python manage.py createsuperuser -\>** Creamos un superusuario para poder acceder a admin
 
-LECCIÓN 1 \> CREACIÓN DE PRIMERA
-PÁGINA
-<img src="./DjangoImages//media/image13.png" width="100" height="100"></img> 
+LECCIÓN 1 \> CREACIÓN DE PRIMERA PÁGINA
+
 
 PRIMERA PÁGINA EN DJANGO
 ========================
@@ -58,10 +54,6 @@ PRIMERA PÁGINA EN DJANGO
 **Creación de app -\> python3 manage.py startapp generador**
 
 **Despliegue de servidor -\> python3 manage.py runserver**
-
-![](./DjangoImages//media/image18.png)
-
-![](./DjangoImages//media/image14.png)
 
 **Después de añadir eso en views.py, y urls.py de vuestro proyecto,
 lanzais el servidor y veréis vuestra página**
